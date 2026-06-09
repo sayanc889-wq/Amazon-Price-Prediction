@@ -22,7 +22,7 @@ category = st.selectbox("Category", [c for c in columns if "category_" in c])
 
 if st.button("Predict"):
 
-    url = "http://127.0.0.1:8000/predict"
+    url = "http://127.0.0.1:8000/predict" or "https://amazon-price-prediction-3.onrender.com/predict"
 
     data = {
         "category": category,
