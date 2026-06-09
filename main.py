@@ -5,8 +5,8 @@ import joblib
 
 app = FastAPI()
 
-model = joblib.load("model.pkl")
-columns = joblib.load("columns.pkl")
+model = joblib.load("model1.pkl")
+columns = joblib.load("columns1.pkl")
 
 columns = [c for c in columns if c != "actual_price"]
 
