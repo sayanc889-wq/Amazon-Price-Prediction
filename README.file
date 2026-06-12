@@ -1,0 +1,103 @@
+🛒 Amazon Product Price Prediction
+
+A Machine Learning project that predicts the actual price of Amazon products based on features like discount, rating, rating count, and product category.
+
+---
+
+🚀 Project Overview
+
+This project uses a Random Forest Regression model to estimate the original price of Amazon products using:
+
+- Discounted Price
+- Discount Percentage
+- Rating
+- Rating Count
+- Product Category (One-Hot Encoded)
+
+The application is built with a Streamlit frontend and a FastAPI backend to provide real-time price predictions.
+
+---
+
+📊 Dataset
+
+The dataset contains Amazon product information including:
+
+- Product Category
+- Discounted Price
+- Actual Price (Target Variable)
+- Discount Percentage
+- Rating
+- Rating Count
+
+---
+
+🧠 Machine Learning Workflow
+
+1. Data Cleaning & Preprocessing
+2. Handling Missing Values
+3. One-Hot Encoding
+4. Feature Selection
+5. Model Training
+6. Model Evaluation
+7. Model Deployment
+
+---
+
+🤖 Models Used
+
+- Linear Regression
+- Decision Tree Regressor
+- KNN Regressor
+- Random Forest Regressor
+- XGBoost Regressor
+
+---
+
+🏆 Best Model Performance
+
+- Random Forest Regressor
+- R² Score: ~95%
+
+---
+
+📦 Tech Stack
+
+- Python 🐍
+- Pandas & NumPy
+- Scikit-learn
+- Random Forest Regressor
+- Streamlit (Frontend UI)
+- FastAPI (Backend API)
+- Joblib (Model Saving)
+
+---
+
+🖥️ Application Features
+
+- Select Product Category
+- Enter Discounted Price
+- Enter Discount Percentage
+- Enter Rating & Rating Count
+- Real-Time Price Prediction
+- FastAPI REST API Integration
+
+---
+
+⚙️ Installation & Setup
+
+1️⃣ Clone Repository
+
+git clone https://github.com/your-username/amazon-price-prediction.git
+cd amazon-price-prediction
+
+2️⃣ Install Dependencies
+
+pip install -r requirements.txt
+
+3️⃣ Run FastAPI
+
+uvicorn main:app --reload
+
+4️⃣ Run Streamlit
+
+streamlit run app.py
