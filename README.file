@@ -87,7 +87,7 @@ The dataset contains Amazon product information including:
 
 1️⃣ Clone Repository
 
-git clone https://github.com/your-username/amazon-price-prediction.git
+git clone https://github.com/sayanc889-wq
 cd amazon-price-prediction
 
 2️⃣ Install Dependencies
